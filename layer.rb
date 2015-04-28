@@ -12,6 +12,9 @@ before do
 
   jsonUIDCoop = File.read('ListeUIDCoop.json')
   @ListeUIDCoop = JSON.parse(jsonUIDCoop)
+
+  jsonUIDCompte = File.read('ListeUIDCompte.json')
+  @ListeUIDCompte = JSON.parse(jsonUIDCompte)
   
 # ATTENTION! @ListeUID, @ListeCoop sont des array...
   content_type :json, 'charset' => 'utf-8'
@@ -31,4 +34,11 @@ get '/api/coop/:uid' do
   # the param[] hash stores querystring and form data
   @koop = params[:uid].to_sym
   erb :filtre2
+end
+
+get '/api/compte/:uid/:coop' do
+  # the param[] hash stores querystring and form data
+  @uid = params[:uid].to_sym
+  @koop = params[:coop].to_sym
+  erb :filtre3
 end

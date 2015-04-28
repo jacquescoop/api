@@ -1,0 +1,25 @@
+<% @SousListe = []
+   @SousListe2 = []
+    @ListeUIDCompte.each {|contenu| 
+      code_uniq = contenu['code']
+
+      if code_uniq.include? @uid.to_s
+        ##@SousListe << nom_coop
+        @SousListe << contenu['compte']
+      end } %>
+
+      <%
+      if @koop.to_s != "*"
+        @SousListe.each {|ligne|
+        if ligne[2] = @koop.to_s
+          @SousListe2 << ligne[1]
+        end }
+        @SousListe = @SousListe2 
+      end %>
+       
+<%= @SousListe.to_json %>
+
+
+
+
+

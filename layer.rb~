@@ -14,7 +14,7 @@ before do
   @ListeUIDCoop = JSON.parse(jsonUIDCoop)
   
 # ATTENTION! @ListeUID, @ListeCoop sont des array...
-  content_type :json
+  content_type :json, 'charset' => 'utf-8'
 end
 
 get '/' do
@@ -31,4 +31,11 @@ get '/api/coop/:uid' do
   # the param[] hash stores querystring and form data
   @koop = params[:uid].to_sym
   erb :filtre2
+end
+
+get '/api/compte/:uid/:coop' do
+  # the param[] hash stores querystring and form data
+  @code_uniq = params[:uid].to_sym
+  @koop = params[:coop].to_sym
+  erb :filtre3
 end
