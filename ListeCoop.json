@@ -1,0 +1,57 @@
+[
+  { 
+    "code":"Alliance",
+    "nom":"La Coop Alliance", 
+    "adresse":"470 route 271",
+    "ville":"St-Ephrem-de-Beauce", 
+    "prov":"Québec", 
+    "codepostal":"G0M 1R0", 
+    "web":"http://www.reseaugrains.com/coops/la-coop-alliance",
+    "contact":"tel://418-484-2890"
+  },
+
+  {
+    "code":"Appalaches",
+    "nom":"La Coop des Appalaches",
+    "adresse":"156 Rue Grenier",
+    "ville":"Laurierville",
+    "prov":"Québec",
+    "codepostal":"G0S 1P0",
+    "web":"http://www.appalaches.coop/",
+    "contact":"tel://819-365-4811"
+  },
+
+  {
+    "code":"Bois-Francs",
+    "nom":"La Coop Bois-Francs",
+    "adresse":"5 avenue Pie X",
+    "ville":"Victoriaville",
+    "prov":"Québec",
+    "codepostal":"G6P 7W7",
+    "web":"https://www.boisfrancs.coop/fra/default.asp",
+    "contact":"tel://819-758-4770"
+  },
+
+  {
+    "code":"Montérégiennes",
+    "nom":"La Coop des Montérégiennes",
+    "adresse":"61 rue Ste-Thérèse",
+    "ville":"Granby",
+    "prov":"Québec",
+    "codepostal":"J2G 8E5",
+    "web":"http://www.lacoopdesmonteregiennes.coop/",
+    "contact":"tel://450-378-2667"
+  },
+
+{
+    "code":"Unicoop",
+    "nom":"La Coop Unicoop",
+    "adresse":"108 rue Principale",
+    "ville":"Ste-Hénédine",
+    "prov":"Québec",
+    "codepostal":"G0S 2R0",
+    "web":"https://www.unicoop.qc.ca/Default.asp",
+    "contact":"tel://418-935-3651"
+  }
+]
+

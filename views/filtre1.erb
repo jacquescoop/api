@@ -1,0 +1,15 @@
+<% @SousListe = []
+   @ListeUID.each {|contenu| 
+     code_uniq = contenu['loginname']
+
+     if code_uniq.include? @uid.to_s
+       ##@SousListe << nom_coop
+       @SousListe << contenu
+     end } %>
+   
+<%= @SousListe.to_json %>
+
+
+
+
+

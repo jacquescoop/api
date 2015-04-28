@@ -1,0 +1,45 @@
+[
+  { 
+    "loginname":"bogemans@gmail.com",
+    "codeNEQ":"116726084",
+    "nom":"Ferme Bogemans inc.", 
+    "adresse":"1432 rang des Dussault", 
+    "ville":"St-Sébastien", 
+    "prov":"Québec", 
+    "codepostal":"J0J 2C0", 
+    "codeEXPL":"0139"
+  },
+
+  { 
+    "loginname":"noiseux@gmail.com",
+    "codeNEQ":"3349368186",
+    "nom":"Ferme D.G. Noiseux senc.",
+    "adresse":"4465 rang de la Rivière Sud", 
+    "ville":"Saint-Jean-Baptiste", 
+    "prov":"Québec", 
+    "codepostal":"J0L 2B0",
+    "codeEXPL":"0131"
+  },
+
+  { 
+    "loginname":"theroche@gmail.com",
+    "codeNEQ":"1145526290",
+    "nom":"Ferme Théroche inc.",
+    "adresse":"882 route Laroche",
+    "ville":"Saint-Félix-de-Kingsley",
+    "prov":"Québec",
+    "codepostal":"J0B 2T0",
+    "codeEXPL":"0111"
+  },
+  
+  {
+    "loginname":"marcoux@gmail.com",
+    "codeNEQ":"1142864751",
+    "nom":"Ferme Philippe Marcoux inc.",
+    "adresse":"384 rang Saint-François",
+    "ville":"Sainte-Marguerite",
+    "prov":"Québec",
+    "codepostal":"G0S 2X0",
+    "codeEXPL":"0111"
+  }
+]

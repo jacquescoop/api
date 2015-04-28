@@ -1,0 +1,15 @@
+<% @SousListe = []
+   @ListeUIDCoop.each {|contenu| 
+     code_uniq = contenu['code']
+
+     if code_uniq.include? @koop.to_s
+       ##@SousListe << nom_coop
+       @SousListe << contenu['coop']
+     end } %>
+   
+<%= @SousListe.to_json %>
+
+
+
+
+
